@@ -8,3 +8,7 @@ def home(request):
 
 def news(request):
 	return render(request, 'news/news.html')
+
+
+def create_news(request):
+	return render(request, 'news/add_new_post.html')
